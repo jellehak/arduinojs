@@ -1,0 +1,17 @@
+{
+  "name": "arduinojs",
+  "version": "0.0.1",
+  "description": "A Javascript to C code transpiler",
+  "main": "ts2c.bundle.js",
+  "scripts": {
+    "start": "npx browser-sync . --watch"
+  },
+  "keywords": [],
+  "author": "Jelle",
+  "license": "ISC",
+  "dependencies": {
+    "esprima": "^4.0.1",
+    "estraverse": "^5.2.0",
+    "esutils": "^2.0.3"
+  }
+}
